@@ -7,7 +7,7 @@ A simple python script to download douban albums and celebrity
 
 
 Introduction
------
+------------
 
 目前支持的下载类型
 
