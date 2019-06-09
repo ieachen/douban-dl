@@ -14,7 +14,7 @@ class Album:
     BASE_URL = "https://www.douban.com/photos/album/"
 
     def __init__(self, album_id):
-        self.url = Album.BASE_URL + album_id + "/?start="
+        self.url = Album.BASE_URL + album_id + "/?m_start="
 
     def photos(self):
         start = 0
