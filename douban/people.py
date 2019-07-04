@@ -26,7 +26,7 @@ class People:
     def __album(self, start):
         headers = {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Encoding': 'gzip, deflate',
             'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
             'Connection': 'keep-alive',
             'DNT': '1',
