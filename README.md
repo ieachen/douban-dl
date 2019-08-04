@@ -19,11 +19,11 @@ Introduction
 
         douban-dl https://movie.douban.com/celebrity/1335340/
         douban-dl https://movie.douban.com/celebrity/1335340/photos
-    
+
 3. 用户所有相册
 
         douban-dl https://www.douban.com/people/einverne/
-    
+
 
 4. 电影剧照
 
@@ -49,6 +49,11 @@ Usage
 `path` is the folder where images saved, defaults to `./douban`.
 
 如果没有指定 `path` ，默认会保存到当前目录下 douban 文件夹中。
+
+SELF-PROMOTION
+---------
+如果想要导出豆瓣标注的数据，可以参看我这个项目 [douban-export](https://github.com/einverne/douban-export)
+
 
 License
 -------
