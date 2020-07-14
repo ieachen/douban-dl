@@ -2,7 +2,6 @@
 # -*- coding:utf-8 -*-
 import os
 
-import requests
 from bs4 import BeautifulSoup
 
 from douban import threadPoolExecutor
@@ -29,7 +28,7 @@ class Album:
 
     def __photos(self, start):
         url = self.url + str(start)
-        r = requests.get(url)
+        r = file_utils.request_with_headers(url)
         soup = BeautifulSoup(r.text, "html.parser")
         return soup.find_all("div", class_="photo_wrap")
 

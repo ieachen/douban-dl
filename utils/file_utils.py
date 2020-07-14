@@ -35,3 +35,12 @@ def get_raw_url(thumb_url):
     if 'photo/lthumb' in thumb_url:
         thumb_url = thumb_url.replace("photo/lthumb", "photo/large")
     return thumb_url
+
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+}
+
+
+def request_with_headers(url):
+    return requests.get(url, headers=headers)
