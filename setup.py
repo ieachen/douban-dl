@@ -17,7 +17,7 @@ def long_desc():
 
 setup(
     name="douban-dl",
-    version="0.0.5",
+    version="0.0.6",
     description="douban downloader, include album, celebrity",
     long_description=long_desc(),
     long_description_content_type='text/markdown',
