@@ -10,7 +10,7 @@ requirements = [
 
 def long_desc():
     try:
-        with open('README.md') as f:
+        with open('README.md', encoding='utf8') as f:
             return f.read()
     except IOError:
         return ''
